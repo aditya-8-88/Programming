@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #444;
+  }
+  
+  header {
+    background-color: #FFC107;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 36px;
+    color: #FFF;
+  }
+  
+  header nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+  }
+  
+  header nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  header nav a {
+    color: #FFF;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  main h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  main p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  main ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  main li {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  section#contact form {
+    margin-top: 20px;
+  }
+  
+  section#contact form div {
+    margin-bottom: 20px;
+  }
+  
+  section#contact form label,
+  section#contact form input,
+  section#contact form textarea {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+  
+  section#contact form input[type="text"],
+  section#contact form input[type="email"] {
+    padding: 10px;
+  }
+  
+  section#contact form textarea {
+    height: 200px;
+    padding: 10px;
+  }
+  
+  section#contact form button[type="submit"] {
+    background-color: #FFC107;
+    color: #FFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  footer {
+    background-color: #FFC107;
+    color: #FFF;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
