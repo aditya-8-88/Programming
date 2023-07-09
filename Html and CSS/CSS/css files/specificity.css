@@ -1,0 +1,32 @@
+/* in line style attribute > id selector > class selector > element selector */
+
+
+/* in line style attributes are those which are written along with the html code */
+/* 'id' are more specific than 'class'  */
+/* element slectors are those which are written directly. Example-*/
+h2{
+    color: red;
+}
+
+/* if we create two or more classes for a single attribute then the one written in bottom gets the preference Example h3 below*/
+.class1_H3{
+    color: red;
+}
+.class2_H3{
+    color: aqua;
+}
+
+
+/* Calculation  of Specificity */
+div#container ul.my_songs li{
+    color: red;
+    background-color: black;
+}
+/* specificity =  if(in line style attribute,  id selector, class selector, element selector)*/
+/* div#container ul.my_songs li = 0,1,1,3 = 113*/
+
+div#container ul.my_songs li.favourite{
+    color: black;
+    background-color: red;
+}
+/* div#container ul.my_songs li.favourite = 0,1,2,3 = 123 (more than 113 therefore changement in li.favourite)*/

@@ -1,0 +1,27 @@
+/* universal operation
+    *{
+        color: tomato;
+    } 
+*/
+
+.header{
+    background-color: aliceblue;
+}
+header p{ /*styles all paragraph which comes after header*/
+    color: red
+}
+li a{
+    color: red;
+}
+ul+p{
+    color: green;
+}
+.section{
+    background-color: azure;
+}
+section >h2{ /*style the heading which comes directly after section class*/
+    color: greenyellow;
+}
+section h2+p{
+    color: orange;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html form</title>
+</head>
+<body>
+    <h1>HTML FORMS</h1>
+    <form action="thankyou.html" method= 'GET'> <!--method get show your details in th url where as method post sends data to header-->
+        <label for="username">Username:</label>
+        <input type="text" name="Username" id="username" placeholder="Enter Username" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password", name="password" id = password placeholder="Enter password" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" name = "Email" id="email" placeholder="Enter Email" required><br><br>
+
+                
+        <h3>Select your gender:-</h3>
+        <label for="male">male</label>
+        <input type="radio" name="gender" id="male" value="male"> <!--value keyword is used to send data -->
+        <label for="female">female</label>
+        <input type="radio" name="gender" id="female" value="female">        
+        <label for="other">other</label>
+        <input type="radio" name="gender" id="other" value="other">
+        
+        <label for="age group"><h3>Select your age group</h3></label>
+        <select name="age group" id="age group">
+            <option value="None">select</option>
+            <option value="3-10">3-10</option>
+            <option value="11-20">11-20</option>
+            <option value="20-30">20-30</option>
+            <option value="30-50">30-50</option>
+            <option value="50+">50+</option>
+        </select>
+        <br><br>
+        <input type="submit" value="submit">
+    
+    </form>
+</body>
+</html>

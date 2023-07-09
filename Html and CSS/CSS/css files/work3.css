@@ -1,0 +1,24 @@
+input[type = 'text']{
+    color: red;
+    background-color: aquamarine;
+}
+input[type ^= 't']{
+    color: red;
+}
+input[type = 'password']{
+    background-color: pink;
+}
+a[href = "https://google.co.in"]{
+    color: red;
+    background-color: bla;
+}
+a[href *= 'google']{
+    color: red;
+}
+a[href ^= 'https']{
+    color: red;
+}
+a[href $= '.com']{
+    color: red;
+}
+/* here *,^,$ signs apply the style to all its components */
