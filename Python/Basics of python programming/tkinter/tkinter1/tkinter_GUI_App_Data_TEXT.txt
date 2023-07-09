@@ -1,0 +1,6 @@
+Aditya,adi@gmail.com,55,male,Student,Yes
+Vishal,vis@gmail.com,8,male,Teacher,Yes
+dvsdv,xv ,v ,male,Student,Yes
+dvxzdv, xz, xz,male,Teacher,Yes
+regwerg,etgrs,ewtg,female,Student,Yes
+vsAv,sFvsv,f,male,Teacher,Yes
