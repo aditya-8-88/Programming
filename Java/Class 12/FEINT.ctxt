@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=FEINT
+comment1.params=
+comment1.target=FEINT()
+comment2.params=
+comment2.target=void\ fnInput()
+comment3.params=
+comment3.target=void\ fnSetFeint()
+comment4.params=
+comment4.target=void\ fnShow()
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+numComments=6

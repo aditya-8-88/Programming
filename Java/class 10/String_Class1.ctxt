@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=String_Class1
+comment1.params=
+comment1.target=void\ StRingClass()
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+comment3.params=args
+comment3.target=void\ main1(java.lang.String[])
+comment4.params=args
+comment4.target=void\ main2(java.lang.String[])
+comment5.params=args
+comment5.target=void\ main3(java.lang.String[])
+comment6.params=args
+comment6.target=void\ main4(java.lang.String[])
+comment7.params=args
+comment7.target=void\ main5(java.lang.String[])
+comment8.params=adii
+comment8.target=void\ print3(java.lang.String[])
+comment9.params=args
+comment9.target=void\ main6(java.lang.String[])
+numComments=10

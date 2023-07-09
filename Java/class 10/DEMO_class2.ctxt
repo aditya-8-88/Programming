@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ output()
+comment1.params=adii
+comment1.target=void\ main0(java.lang.String[])
+comment2.params=adii
+comment2.target=void\ main5(java.lang.String[])
+comment3.params=r
+comment3.target=void\ areaCircle(int)
+comment4.params=adii
+comment4.target=void\ increment(java.lang.String[])
+numComments=5

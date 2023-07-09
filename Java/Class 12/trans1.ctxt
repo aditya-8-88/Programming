@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=trans1
+comment1.params=
+comment1.target=trans1()
+comment2.params=n
+comment2.target=int\ countDigits(int)
+comment3.params=
+comment3.target=void\ fnBegin()
+comment4.params=
+comment4.target=void\ display()
+comment5.params=arg
+comment5.target=void\ main(java.lang.String[])
+numComments=6
