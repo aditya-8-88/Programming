@@ -25,7 +25,7 @@ int creation(){
             p->next=c;
             p=c;
         }
-        printf("Enter 1 for new data entry or 0 vica-versa: ");
+        printf("(0/1): ");
         scanf("%d",&choice);
         if(choice!= 0 && choice!=1){
             printf("Invalid choice\n");
@@ -35,12 +35,12 @@ int creation(){
 }
 
 int display(){
-    printf("\nLinked list:");
     if(head==NULL){
-        printf("You haven't created a list yet!\n");
+        printf("Linked list status : Empty!\n");
         return 0;
     }
     else{
+        printf("\nCurrent Linked list:");
         struct node *ptr;
         ptr=head;
         while(ptr!=NULL){
@@ -48,56 +48,126 @@ int display(){
             ptr=ptr->next;
         }
         printf("\n");
+        return 1;
     }
-
 }
 
 int insertion(){
-    // printf("")
-    display();
+    if(display()==0){
+        return 0;
+    }
     struct node *ptr,*c,*p;
-    int data,target;
-    ptr=(struct node*)malloc(sizeof(struct node));
-    printf("Enter data and target for new node creation: ");
-    scanf("%d %d",&ptr->data,&target);
-    target++;
     c=head;
-    while(target){
-        if(target==1){
-            ptr->next=head;
-            head=ptr;
-            return 0;
+    int data,target,temp=1;
+    ptr=(struct node*)malloc(sizeof(struct node));
+    printf("Enter target and data for new node creation, enter 0 to add at last: ");
+    scanf("%d %d",&target,&ptr->data);
+    if(target==1){// head case
+        ptr->next=head;
+        head=ptr;
+        display();
+        return 0;
+    }
+    else if(target==0){// NULL case or tail case
+        while(c->next!=NULL){
+            c=c->next;
         }
-        if(c->next==NULL){
-            c->next=ptr;
-            ptr->next=NULL;
-            return 0;
-        }
+        c->next=ptr;
+        ptr->next=NULL;
+        display();
+        return 0;
+    }
+    while(temp!=target){// any middle case
         p=c;
         c=c->next;
-        target--;
+        temp++;
     }
-    ptr->next=c;
     p->next=ptr;
-    display()
+    ptr->next=c;
+    display();
+    return 0;
 }
 
+int deletion(){
+    if(display()==0){
+        return 0;
+    }
+    struct node *p2=NULL,*p1=head;
+    int target,temp=1;//imp-> value of temp should decrease on incrementing the number of pointer used
+    printf("-1.Delete the linked list\t0.Tail\t1.Head\tany other number for other deletion.\nDeletion Operation: ");
+    scanf("%d",&target);
+    if(target==1){
+        head=p1->next;
+        free(p1);
+        display();
+        return 0;
+    }
+    else if(target==0){
+        while(p1->next!=NULL){            
+            p2=p1;
+            p1=p1->next;
+            }
+            p2->next=NULL;
+            free(p1);
+            display();
+            return 0;
+    }
+    else if(target==-1){
+        while(p1!=NULL){
+            p2=p1;
+            p1=p1->next;
+            free(p2);
+        }
+        head=NULL;
+        display();
+        return 0;
+    }
+    while(p1 != NULL && temp!=target){
+        // p3=p2;
+        p2=p1;
+        p1=p1->next;
+        temp++;
+    }
+    p2->next=p1->next;
+    free(p1);
+    display();
+    return 0;
+}
+
+int reverse(){
+    if(display()==0){
+        return 0;
+    }
+    display();
+    struct node *prev = NULL,*current = head,*next = NULL;
+    while (current != NULL) {
+        next = current -> next;
+        current -> next = prev;
+        prev = current;
+        current = next;
+    }
+    head = prev;
+    display();
+    return 0;
+}
 int main() {
     int choice;
     while(true){
-        printf("\n1.Creation\t2.Insertion\t3.Deletion\t4.Display\t5.Exit\nEnter your choice: ");
+        printf("\n1.Creation\t2.Insertion\t3.Deletion\t4.Display\t5.Reverse\t6.Exit\nEnter your choice: ");
         scanf("%d",&choice);
         switch(choice) {
             case 1: creation();
                     break;
             case 2: insertion(); 
                     break;
-            // case 3: deletion(); 
-            //         break;
+            case 3: deletion(); 
+                    break;
             case 4: display();
                     break;
-            case 5: return 0;
+            case 5: reverse();
+                    break;
+            case 6: return 0;
             default : printf("Invalid choice\n");
             }
     }
-}
+}   
