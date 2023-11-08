@@ -1,4 +1,4 @@
-Reading file 'read.txt' that contain text and writing file'reader.txt' that contains unique words only using 'class'. 
+# Reading file 'read.txt' that contain text and writing file'reader.txt' that contains unique words only using 'class'. 
 class TextFileHandeling:
    #constructor
     def __init__(self,path,mode):

@@ -6,15 +6,15 @@ while i<=2:
 
 
 # for loop
-for i in range(3): # i will run from 0-9 by default another syntax--> for i in range(1,11) -->here i will go from 1 to 10
+for i in range(9): # i will run from 0-9 by default another syntax--> for i in range(1,11) -->here i will go from 1 to 10
     print(f'hello world : {i}')
 
 # break and continue keywords
 for i in range(6):
     if i==1:
-        continue # if i=4 then 4 will not be printed and loop will continue
+        continue # if i=1 then 1 will not be printed and loop will continue
     if i==4:
-        break # if i=7 then 7 will not be printed and loop will break
+        break # if i=4 then 4 will not be printed and loop will break
     print(i)
 print()
 

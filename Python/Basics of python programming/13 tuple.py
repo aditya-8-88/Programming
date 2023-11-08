@@ -29,7 +29,7 @@ print(guitor1+'     '+guitor2+ '        '+guitor3 )
 
 # lists in tuple (here lists can be changed)
 favourite =('hello', 'world', [2, 3, 'Aditya'])
-favourite[2].pop() # and all other functions and  methods like remove, append etc
+favourite[2].pop() # since it is currently working in a list inside tuple so all other functions and  methods like remove, append etc works
 print(favourite,'\n')
 
 # Here's an example to demostrate that a list can contain a tuple( ya, which  can't be changed)

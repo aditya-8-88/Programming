@@ -18,6 +18,7 @@ print(s,'\n')
 # union and intersection in sets
 s1= {1,2,3,4,5,6,7}
 s2= {4,5,6,7,8,9,10}
+print(type(s1))
 union =  s1|s2
 intersection = s1 & s2
-print(f'Union is {s1|s2} \nintersection is {intersection}')
+print(f'Union is {union} \nintersection is {intersection}')

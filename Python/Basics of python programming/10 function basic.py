@@ -18,8 +18,8 @@ def add_data(var1,var2):
 # print(fn.__name__) # it gives name of original function
 
 
-# print(help(len),'\n') # here if i don't know the use of len then i can call for a help 
-# print(help(help))
+print(help(len),'\n') # here if i don't know the use of len then i can call for a help 
+print(help(help))
 
 
 # # Default Vaules to bypass errors

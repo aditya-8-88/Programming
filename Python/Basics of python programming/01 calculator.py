@@ -1,4 +1,4 @@
-print(2+3*8) #arthmatic operations in oder - parentesis,exponent,*,/,//,%,,+,-. associativity Left to Right except exponent(line 8).
+print(2+3*8) #arthmatic operations in oder - parenthesis,exponent,*,/,//,%,+,-. associativity Left to Right except exponent(line 8).
 print(2/4) #floating point division
 print(2//4) #integer division
 print(2**4) #here it is Math.pow(a,b) type 

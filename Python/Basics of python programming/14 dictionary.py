@@ -5,7 +5,7 @@ print()
 user = {
     'name': 'Aditya', 
     'age': 24
-       }
+    }
 # or simply like --> user = {'name': 'Aditya', 'age': 24} 
 print(user)
 print(type(user))
@@ -53,6 +53,7 @@ print(type(popped_item))
 print(user1.values(),'\n')
 
 print('\n\n\n\n\n')
+
 # .popitem() method
 user1 = {'name': 'Aditya', 'age': 24, 'fav_char' : 'a b c'}
 popped_item = user1.popitem() # deletes last key and it's data 
@@ -92,7 +93,7 @@ if d is d1:
 if d2 is d1:
     print('same memory location of d2 and d1')
 else:
-    print('not same memory location of d and d1')
+    print('not same memory location of d2 and d1')
 
 
 

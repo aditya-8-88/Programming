@@ -1,6 +1,7 @@
 # uses of lambda are below
 
-isEven = lambda num : num%2==0
+# lambda arguments: expression
+isEven = lambda num : num%2==0 # lamda is used to create short function
 print(isEven(5))
 print()
 
