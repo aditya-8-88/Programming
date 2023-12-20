@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+
+</head>
+
+<body>
+    <h2>Registration Form</h2>
+    <form>
+        Name: <br>
+        <input type="text" id="name" placeholder="Enter Name" required>
+        <br><br>
+        Password: <br>
+        <input type="password" id="password" placeholder="Enter Password" required>
+        <br><br>
+        Email: <br>
+        <input type="email" id="email" placeholder="Enter Email" required>
+        <br><br>
+        Phone Number: <br>
+        <input type="text" id="contact" pattern="^[789]\d{9}$" placeholder="Enter Contact" required>
+        <br><br>
+        <label>Gender:</label>
+        Male
+        <input type="radio" name="gender" id="male">
+        Female
+        <input type="radio" name="gender" id="female">
+        Other
+        <input type="radio" name="gender" id="other">
+        <br><br>
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob">
+        <br><br>
+        <label for="language">Language Known:</label>
+        <select id="language" name="language">
+            <option value="">Select</option>
+            <option value="Hindi">Hindi</option>
+            <option value="English">English</option>
+        </select>
+        <br><br>
+        Address: <br>
+        <textarea id="address" name="address" placeholder="Enter Address" cols="30" rows="5"></textarea>
+
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
