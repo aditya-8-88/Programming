@@ -8,7 +8,7 @@
     <script>
         function validateForm() {
             var name = document.getElementById("name").value;
-            if (!/^[a-zA-Z]+$/.test(name) || name.length < 6) {
+            if (!/^[a-zA-Z]+$/.test(name) && name.length < 6) {
                 alert("Name should contain only alphabets and have a minimum length of 6 characters.");
                 return false;
             }
@@ -40,7 +40,7 @@
         <input type="text" id="contact" pattern="^[789]\d{9}$" placeholder="Enter Contact" required>
         <br><br>
         <label>Gender:</label>
-        Male
+        <label for="male">Male</label>
         <input type="radio" name="gender" id="male">
         Female
         <input type="radio" name="gender" id="female">
