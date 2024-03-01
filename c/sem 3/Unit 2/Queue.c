@@ -87,7 +87,6 @@ struct node
 struct node *front;
 struct node *rear;
 
-
 void insert(int item)
 {
     struct node *ptr;
@@ -139,7 +138,7 @@ void display()
     {
         printf("\nEmpty queue\n");
     }
-    else
+    else    
     {
         while (ptr != NULL)
         {
