@@ -92,14 +92,14 @@ int main()
     create_node(-5, 1, &poly2); 
     create_node(-5, 0, &poly2); 
   
-    printf("1st Number: "); 
+    printf("1st Expression: "); 
     show(poly1); 
   
-    printf("\n2nd Number: "); 
+    printf("\n2nd Expression: "); 
     show(poly2); 
   
     poly = (struct Node*)malloc(sizeof(struct Node)); 
-    // Function add two polynomial numbers 
+    // Function add two polynomial Expressions 
     polyadd(poly1, poly2, poly); 
 
     // Display resultant List`
