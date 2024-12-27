@@ -1,6 +1,7 @@
 {
-  "name": "2.5",
+  "name": "3.1",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,8 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.21.2"
-  },
-  "devDependencies": {},
-  "description": ""
+    "express": "^4.21.2",
+    "zod": "^3.24.1"
+  }
 }
