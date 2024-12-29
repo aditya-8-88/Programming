@@ -1,0 +1,29 @@
+<body bgcolor="black" text="white">
+    <div id="counter">counter is 0</div>
+
+    <script>
+        function increment() {
+            const counter = document.getElementById('counter');
+            let count = 0;
+
+            console.log('before updateCounter function');
+            function updateCounter() {
+                counter.innerHTML = `counter is ${count}`;
+                count++;
+                setTimeout(updateCounter, 1000);
+                console.log('counter = ' + count);
+            }
+
+            console.log('before updateCounter function call');
+            updateCounter();
+            console.log('after updateCounter function call');
+            // while(true) {
+            //     console.log('this is an infinite loop');
+            // }
+        }
+        
+        console.log('before increment function call');
+        increment();
+        console.log('after increment function call');
+    </script>
+</body>
