@@ -1,0 +1,26 @@
+<body class="container">
+    <input type="number" id="number" placeholder="Enter the principle"></input> <br><br>
+    <input type="number" id="rate" placeholder="Enter the rate"></input> <br><br>
+    <input type="number" id="time" placeholder="Enter the time"></input> <br><br>
+    <button onclick="calculate()">Calculate</button> <br><br>
+    <div id="result" class="result"></div>
+
+    <script>
+        async function calculate() {
+            const principle = document.getElementById("number").value;
+            const rate = document.getElementById("rate").value;
+            const time = document.getElementById("time").value;
+
+            try {
+                const response = await fetch(`http://localhost:3000/calculate?principle=${principle}&rate=${rate}&time=${time}`);
+                const result = await response.json();
+                // console.log(result);
+
+                const resultDiv = document.getElementById('result');
+                resultDiv.innerHTML = `Simple Interest is: ${result.simple}`;
+            } catch (error) {
+                console.error('Error:', error);
+            }
+        }
+    </script>
+</body>
