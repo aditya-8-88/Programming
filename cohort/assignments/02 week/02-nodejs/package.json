@@ -1,0 +1,20 @@
+{
+  "name": "02-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "todo.js",
+  "scripts": {
+    "test": "jest",
+    "test-todoServer": "jest tests/todoServer.test.js"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "uuid": "^11.0.3"
+  }
+}
