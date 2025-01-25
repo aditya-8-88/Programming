@@ -6,7 +6,7 @@ Welcome to the Programming Language Tutorial Repository! This repository contain
 
 ## Contents
 
-The repository covers a wide range of programming languages with in-depth tutorials, code samples, and explanations for learners at different skill levels.
+The repository covers a wide range of programming languages and frameworks with in-depth tutorials, code samples, and explanations for learners at different skill levels.
 
 ### Sample Topics Covered
 
