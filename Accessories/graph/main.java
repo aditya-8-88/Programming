@@ -106,3 +106,71 @@ public class main {
         
     // }
 }
+
+
+
+
+// import java.util.*;
+
+// public class Graph {
+//     private int vertices; // Number of vertices
+//     private int[][] adjMatrix; // Adjacency matrix
+
+//     public Graph(int vertices) {
+//         this.vertices = vertices;
+//         this.adjMatrix = new int[vertices][vertices];
+//     }
+
+//     // Add an edge to the graph
+//     public void addEdge(int src, int dest) {
+//         adjMatrix[src][dest] = 1;
+//         adjMatrix[dest][src] = 1; // For undirected graph
+//     }
+
+//     // DFS traversal
+//     public void dfs(int start) {
+//         boolean[] visited = new boolean[vertices];
+//         System.out.print("DFS Traversal: ");
+//         dfsUtil(start, visited);
+//         System.out.println();
+//     }
+
+//     private void dfsUtil(int node, boolean[] visited) {
+//         visited[node] = true;
+//         System.out.print(node + " "); // Process node
+
+//         for (int i = 0; i < vertices; i++) {
+//             if (adjMatrix[node][i] == 1 && !visited[i]) {
+//                 dfsUtil(i, visited);
+//             }
+//         }
+//     }
+
+//     // Display the adjacency matrix
+//     public void displayMatrix() {
+//         System.out.println("Adjacency Matrix:");
+//         for (int i = 0; i < vertices; i++) {
+//             for (int j = 0; j < vertices; j++) {
+//                 System.out.print(adjMatrix[i][j] + " ");
+//             }
+//             System.out.println();
+//         }
+//     }
+
+//     public static void main(String[] args) {
+//         int vertices = 5;
+//         Graph graph = new Graph(vertices);
+
+//         // Create edges (undirected)
+//         graph.addEdge(0, 1);
+//         graph.addEdge(0, 2);
+//         graph.addEdge(1, 3);
+//         graph.addEdge(1, 4);
+
+//         // Display adjacency matrix
+//         graph.displayMatrix();
+
+//         // Perform DFS starting from vertex 0
+//         graph.dfs(0);
+//     }
+// }
