@@ -1,0 +1,16 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+#box{
+    background-color: blue;
+}
+
+.Headings{
+    color: red;
+}
+/* 
+#click-me{
+    background-color: green;
+} */
