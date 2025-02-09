@@ -1,0 +1,22 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+#h11{
+    /* heading in center */
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#outer{
+    font-size: 25px;
+}
+
+#inner{
+    font-size: 10px;
+}
