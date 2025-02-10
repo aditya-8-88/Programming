@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+#navbar{
+    height: 60px;
+    background-color: #0f1111;
+}
+
+#search-btn{
+    background-color: #f08804;
+}
+
+#logo{
+    color: #f08804;
+    font-size: 25px;
+}
+
+a{
+    margin-right: 200px;
+}
+
+#content{
+    height: 600px;
+}
+
+.div1{
+    height: 100px;
+    width: 100px;
+    /* background-color: green; */
+    border-radius: 50%;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+footer{
+    height:100px;
+    background-color: #0f1111;
+    text-align: center;
+}
