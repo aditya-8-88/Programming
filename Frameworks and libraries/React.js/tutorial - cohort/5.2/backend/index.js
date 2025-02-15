@@ -2,10 +2,12 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const { connectDB } = require('./db');
 const Todo = require('./todo');
+const cors = require('cors');
 const { createToDo, updateToDo } = require('./types');
 
 const app = express();
 app.use(bodyParser.json());
+app.use(cors());
 
 // Connect to MongoDB
 connectDB();
