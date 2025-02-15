@@ -1,0 +1,44 @@
+body {
+  background-color: rgb(50, 47, 47);
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Add styles for the main container */
+#root {
+  width: 100%;
+  max-width: 600px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style for input fields and buttons */
+input, button {
+  margin: 10px;
+  padding: 10px;
+}
+
+/* Style for todo items */
+.todo-item {
+  background-color: rgba(255, 255, 255, 0.1);
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.create-todo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.create-todo input,
+.create-todo button {
+  padding: 10px;
+  margin: 0;
+}
