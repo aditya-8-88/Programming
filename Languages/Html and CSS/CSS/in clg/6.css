@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.navbar{
+    background-color: grey;
+    color: black;
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+li{
+    list-style-type: none;
+}
+
+.outer{
+    background-color: aqua;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    
+    /* row */
+    justify-content: center; 
+    /* column */
+    align-items: center;
+}
+
+.inner{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+}
