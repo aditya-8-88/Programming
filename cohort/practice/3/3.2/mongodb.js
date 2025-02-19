@@ -5,6 +5,10 @@ const jwtPassword = "123456";
 const app = express();
 app.use(express.json());
 
+// below connection string was just for demo purpose, auth is removed from it
+// you should use your own connection string
+// you can get it from mongodb atlas
+// https://docs.mongodb.com/manual/reference/connection-string/
 mongoose.connect(
   "mongodb+srv://adityapratapsingh12b05:ex8HwIcbdgSeTiS6@cluster0.oees5.mongodb.net/userappnew",
 );
