@@ -1,23 +1,2 @@
-Languages/Java/cp/
-Languages/Java/college/telusko course/Javacode/
-
-Frameworks and libraries/Django/asgi tutorial/env/
-Frameworks and libraries/Django/asgi tutorial/core/core/__pycache__/
-Frameworks and libraries/Django/asgi tutorial/core/chat/__pycache__/
-
-Frameworks and libraries/Django/Rest api/env
-Frameworks and libraries/Django/Rest api/core/__pycache__/
-
-cohort/videos/
-cohort/practice/2/2.2/node_modules/
-cohort/practice/2/2.5/node_modules/
-cohort/.env
-cohort/practice/3/3.1/node_modules/
-cohort/practice/3/3.2/node_modules/
-
-cohort/assignments/04 week/01/node_modules/
-cohort/assignments/02 week/01-async/node_modules/
-cohort/assignments/02 week/02-nodejs/node_modules/
-
-Frameworks and libraries/Fast Api/__pycache__/
-Frameworks and libraries/Fast Api/env/
+Languages/file_organizer.db
+.vscode/
