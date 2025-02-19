@@ -29,7 +29,7 @@ public class Encapsulation {
     
     public static void main(String[] args) {
         Human obj=new Human();
-		obj.SetAge(30);
+		obj.setAge(30);
 		obj.setName("Reddy");
 //		obj.age=11;
 //		obj.name="Navin";

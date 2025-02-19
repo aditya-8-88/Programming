@@ -6,10 +6,9 @@ class Human
 	public Human()
 	{
 		age=12;
-		name="John";H
+		name="John";
 	}
 	public Human(String name) {
-		this.age=age;
 		this.name=name;
 	}
 	public Human(int age, String name)
