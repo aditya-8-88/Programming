@@ -3,9 +3,9 @@ export default function About() {
         <div className="py-16 bg-white">
             <div className="container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
                 <div className="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
-                    <div className="md:5/12 lg:w-5/12">
-                        <img
-                            src="https://tailus.io/sources/blocks/left-image/preview/images/startup.png"
+                    <div className="md:3/12 lg:w-5/12">
+                        <img className="rounded-xl w-full max-w-md h-auto object-cover"
+                            src="/src/assets/hello.jpg"
                             alt="image"
                         />
                     </div>
@@ -17,10 +17,21 @@ export default function About() {
                             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum omnis voluptatem
                             accusantium nemo perspiciatis delectus atque autem! Voluptatum tenetur beatae unde
                             aperiam, repellat expedita consequatur! Officiis id consequatur atque doloremque!
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum omnis voluptatem
+                            accusantium nemo perspiciatis delectus atque autem! Voluptatum tenetur beatae unde
+                            aperiam, repellat expedita consequatur! Officiis id consequatur atque doloremque!
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum omnis voluptatem
+                            accusantium nemo perspiciatis delectus atque autem! Voluptatum tenetur beatae unde
+                            aperiam, repellat expedita consequatur! Officiis id consequatur atque doloremque!
                         </p>
                         <p className="mt-4 text-gray-600">
                             Nobis minus voluptatibus pariatur dignissimos libero quaerat iure expedita at?
                             Asperiores nemo possimus nesciunt dicta veniam aspernatur quam mollitia.
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum omnis voluptatem
+                            accusantium nemo perspiciatis delectus atque autem! Voluptatum tenetur beatae unde
+                            aperiam, repellat expedita consequatur! Officiis id consequatur atque doloremque!
+
+                            
                         </p>
                     </div>
                 </div>
